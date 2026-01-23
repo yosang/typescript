@@ -2,14 +2,14 @@
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "./dist",
-    "module": "commonjs", // ← Change this
+    "module": "commonjs",
     "target": "es2020",
     "moduleResolution": "node",
     "lib": ["es2020"],
     "types": ["node", "jest"],
     "sourceMap": true,
     "strict": true,
-    "esModuleInterop": true, // ← Add this
+    "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   }
