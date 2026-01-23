@@ -6,9 +6,9 @@ function sayHello(string: any): any {
 console.log(sayHello("hello"));
 
 // Using generics - preserves the type safety
-function greet<T>(string: T): T {
+function greetings<T>(string: T): T {
   return string;
 }
 
-console.log(greet<string>("Hellois")); // We can explicity type it using the type argument
-console.log(greet("heisann")); // or let typescript infer the type for us
+console.log(greetings<string>("Hellois")); // We can explicity type it using the type argument
+console.log(greetings("heisann")); // or let typescript infer the type for us
