@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // Rest parameters
 function buildName(firstName, ...restOfName) {
     //   The rest operator "collects" arguments into an array
