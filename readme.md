@@ -10,3 +10,15 @@ Coverage:
 - unions
 - simple express setup
 - simple api setup
+
+Packages:
+
+- @types/express
+- @types/node
+- @types/jest
+- jest
+- express
+- nodemon
+- ts-jest
+- ts-node
+- typescript
