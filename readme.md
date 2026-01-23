@@ -8,8 +8,9 @@ Coverage:
 - handling JSON data
 - interfaces
 - unions
-- simple express setup
-- simple api setup
+- express setup
+- api setup
+- test setup with Jest
 
 Packages:
 
